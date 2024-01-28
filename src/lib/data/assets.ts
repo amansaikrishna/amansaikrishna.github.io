@@ -8,6 +8,8 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	HSTECH: a('hstech.jpg'),
+	Triweb: a('triweb.jpg'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -23,11 +25,11 @@ const Assets = {
 	Numpy: a('numpy.svg'),
 	Pandas: a('pandas.svg'),
 	RabbitMQ: a('rabbitmq.svg'),
-	Rust: a('rust.svg', 'rust-dark.png'),
+	Rust: a('rust.png'),
 	Scrapy: a('scrapy.png'),
 	Selenium: a('selenium.svg'),
 	Docker: a('docker.svg'),
-	Kubernetes: a('kubernetees.svg'),
+	Kubernetes: a('kubernetes.svg'),
 	Csharp: a('csharp.svg'),
 	Xamarin: a('xamarin.svg'),
 	TypeScript: a('ts.png'),
@@ -37,11 +39,11 @@ const Assets = {
 	Kotlin: a('kotlin.png'),
 	Python: a('python.png'),
 	NodeJs: a('node.png'),
-	Deno: a('deno.png', 'deno-dark.png'),
+	Deno: a('deno.png'),
 	Svelte: a('svelte.png'),
 	ExpressJs: a('express.png'),
 	JavaScript: a('js.png'),
-	Fastify: a('fastify.svg', 'fastify-dark.png'),
+	Fastify: a('fastify.png'),
 	NestJs: a('nest.svg'),
 	Quasar: a('quasar.svg'),
 	SolidJs: a('solid.svg'),
@@ -70,7 +72,20 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Azur: a('azur.png'),
+	BrainAcademy: a('brain-academy.jpg'),
+	Matplotlib: a('matplotlib.svg'),
+	Scikit: a('scikit.png'),
+	Seaborn: a('seaborn.svg'),
+	Tensorflow: a('tensorflow.svg'),
+	Pytorch: a('pytorch.svg'),
+	nltk: a('nltk.png'),
+	PowerBI: a('powerbi.png'),
+	Tableau: a('tableau.svg'),
+	MySQL: a('mysql.png'),
+	Git: a('git.png')
+
 };
 
 export default Assets;

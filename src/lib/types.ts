@@ -1,5 +1,7 @@
 import type { Color } from './utils/colors';
 
+
+
 export enum Platform {
 	GitHub = 'github',
 	StackOverflow = 'stackoverflow',
@@ -7,7 +9,8 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
-	Youtube = 'youtube'
+	Youtube = 'youtube',
+	Kaggle = 'kaggle'
 }
 
 export type Icon = `i-${string}-${string}`;
