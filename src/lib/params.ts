@@ -42,7 +42,7 @@ export const HOME: HomePageParams = {
 	title: 'Home',
 	name: 'Aman',
 	lastName: 'Bukkapatnam',
-	description: 'Data Scientist',
+	description: 'Data Analyst / Scientist',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/amansaikrishna' },
 		{
